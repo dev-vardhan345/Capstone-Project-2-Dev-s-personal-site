@@ -1,0 +1,54 @@
+.carousel-image{
+    font-weight:bolder;
+    font-size:5rem;
+}
+.caousel-caption-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#Dev{
+    font-weight:bolder;
+}
+#skills-heading{
+    font-family: "Nunito", sans-serif;
+    font-size:2.5rem;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+#soft-skills-logo{
+    border-radius:0.75rem;
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.project-heading{
+    font-family: "Nunito", sans-serif;
+    font-size:2.5rem;
+}
+#projects{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,210,1) 100%);
+}
+#Address,#Mobileno,#Email{
+    font-weight:bold;
+}
+#contact-body{
+    
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,10,141,1) 100%);
+}
+.contact-p{
+    font-size:1.5rem;
+}
+@media (max-width:992px){
+    .carousel-image{
+        font-size:2rem;
+    }
+}

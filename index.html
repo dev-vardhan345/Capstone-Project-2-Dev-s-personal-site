@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's Personal Site</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet" >
+
+</head>
+<body>
+    <!--Navbar section-->
+
+    <section id="navbar">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="./contact.html">Contact me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#jumbotron-intro">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#skills">My Skills</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </section>
+
+    <!--Intro section-->
+    <section id="intro" class="bg-body-secondary" >
+     <div class="container py-4">
+        <div class="text-dark my-4">
+            <h2 class="mb-3">Thanks for visiting my website !</h2>
+            <h2>Myself <span id="Dev">"Dev Vardhan Singh Chauhan"</span><br /> and I am .. </h2>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <img src="./Images/Engineering.png" class="d-block w-100" alt="Image of Engineering student with a latop and Sketch">
+                <div class="caousel-caption-container">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h2 class="carousel-image">An Engineering Student</h2>
+                 </div>
+                </div> 
+              </div>
+              <div class="carousel-item" >
+                <img src="./Images/Development.png" class="d-block w-100" alt="Image of computer screen displaying some code">
+                <div class="caousel-caption-container">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h2 class="carousel-image" >An Aspiring Developer and Software Engineer</h2>
+                 </div>
+                </div> 
+              </div>
+              <div class="carousel-item" >
+                <img src="./Images/Explorer.png" class="d-block w-100" alt="Image of a tracker standing on the top of mountain">
+                <div class="caousel-caption-container">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h2 class="carousel-image">An Explorer</h2>
+                 </div>
+                </div> 
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </div>
+    </section>
+    <!--jumbotron about me -->
+    <section id="jumbotron-intro">
+
+      <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <img src="./Images/Dev's image.jpg" alt="Dev's Image" class="rounded-circle w-25" />
+          <h1 class="text-body-emphasis">[Dev Vardhan Singh Chauhan]<br />IT Engineering Student | Tech Enthusiast | Aspiring Innovator</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+           I am an IT engineering student at SGSITS Indore with a strong passion for technology, problem-solving, and innovation. My interests span software development and technical writing, and I actively participate in coding challenges and  technical projects. Additionally, I have prepared for E-Cell (management role) and Codefoster (coding domain) interviews, reflecting my diverse skill set in both technical and leadership domains.
+          </p>
+        </div>
+      </div>
+
+    </section>
+    <!--My skills-->
+    <section id="skills">
+      <div class="container px-4 py-5 " id="hanging-icons">
+            <h2 class="pb-2 border-bottom">My Skills</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+              <div class="col-12 d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./Images/code-circle.svg" alt="svg of code-circle simbol" height="50rem"  id="code-circle" />
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Technical Skills</h3>
+                  <p>
+                    <ul id="programming-languages-list">
+                      <li>C</li>
+                      <li>C++</li>
+                      <li>Basic Python</li>
+                      <li>Basic MySql</li>
+                      <li>HTML 5</li>
+                      <li>CSS(Cascading Style sheet)</li>
+                      <li>Bootstrap(Framework)</li>
+                      <li>Data Structures and Algorithms (DSA)</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./Images/soft skills svg.png" alt="svg of Soft skills logo" height="40rem"  id="soft-skills-logo" />
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Soft Skills</h3>
+                  <p class="mt-5 ">
+                    <ul>
+                      <li>Commnunication Sills</li>
+                      <li>Time Management</li>
+                      <li>Team Work</li>
+                      <li>
+                        Languages:
+                        <ul>
+                          <li>English</li>
+                          <li>Hindi</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" class="p-5 mb-0">
+
+      <div class="container">
+        <div class="row">
+        <div class="project-heading">
+          <h2 class="fw-bold text-light">My Projects<hr /></h2>
+        </div>
+        </div>
+        <div class="row my-5">
+        <div class="flex-container">
+        <div class="project1">
+          <!--project-1-->
+
+          <div class="card bg-body-tertiary text-center ml-4" style="width: 18rem;">
+            <img src="./Images/My resume.png" class="card-img-top" alt="icon image of my resume project">
+            <div class="card-body">
+              <h5 class="card-title">Capstone Project-1 : My Resume</h5>
+              <p class="card-text">This is my first capsotne project which i built completely using html(version-5).It is a very simple website showcasing my resume and my educations, hobbies,etc.</p>
+              <a href="./Capstone project -1 , my resume/index.html" class="btn btn-outline-primary">Visit website</a>
+            </div>
+          </div>
+        </div>
+        <!--Project-2-->
+        <div class="project-2">
+
+          <div class="card bg-body-tertiary text-center mx-4" style="width: 18rem;">
+            <img src="./Images/html portfolio.png" class="card-img-top" alt="icon image of html-portfolio project" height="180rem">
+            <div class="card-body">
+              <h5 class="card-title">HTML Portfolio</h5>
+              <p class="card-text">This is also one of the simple projects which i built completely using html(version-5).It is a very simple website showcasing built in a portfolio style.</p>
+              <a href="./4.3 HTML Porfolio Project/index.html" class="btn btn-outline-primary">Visit website</a>
+            </div>
+          </div> 
+
+        </div>
+        </div>
+        </div>
+      </div>
+
+    </section>
+    <!--Footer-->
+    <section id="footer" class="bg-body-secondary">
+
+      <div class="container">
+        <footer class="py-3 ">
+          <ul class="nav justify-content-around border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://github.com/dev-vardhan345" class="nav-link px-2 text-body-secondary"><img src="./Images/icons8-github-48.png" alt="github logo" /></a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/dev-vardhan-singh-chauhan-746912321/" class="nav-link px-2 text-body-secondary"><img src="./Images/linkedin.png" height="50rem" class="mx-50" alt="linkedin logo" /></a></li>
+            <li class="nav-item"><a href="https://www.instagram.com/dev_vardhan3698/?next=%2F&hl=en" class="nav-link px-2 text-body-secondary"><img src="./Images/instagram.png" height="50rem" class="mx-20" alt="Instagram logo"/></a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2025 Dev Vardhan Singh Chauhan</p>
+        </footer>
+      </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+                crossorigin="anonymous"></script>
+    
+</body>
+</html>
